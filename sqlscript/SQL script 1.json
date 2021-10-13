@@ -2,7 +2,7 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "CREATE VIEW [dbo].[getDate]\n\tAS SELECT GETDATE()\n",
+			"query": "CREATE VIEW [dbo].[getDate]\n\tAS SELECT GETDATE(), 'NOICE'",
 			"metadata": {
 				"language": "sql"
 			},
